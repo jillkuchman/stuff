@@ -1,0 +1,86 @@
+/*hide navbar 1 for smaller screens*/
+@media only screen and (max-width: 480px) {
+  .navbar1 {
+    display: none;
+  }
+}
+
+/*hide navbar 2 for larger screens*/
+@media only screen and (min-width: 480px) {
+  .navbar2 {
+    display:none;
+  }
+}
+
+body {
+  font-size:16px;
+	line-height:22px;
+	height: auto;
+	font-family: 'Helvetica', sans-serif;
+	color:#373648;
+	background-color:#EEEFE5;
+}
+
+header {
+  background-color: red;
+}
+
+.twitterIcon {
+  width:6.9%;
+  max-width:50px;
+  background-image:url(../images/twitter21.png);
+  height:19px;
+  float:right;
+  margin:25px 0px 0px 0px;
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size:23px 19px;
+}
+
+.linkedinIcon {
+  width:6.9%;
+  max-width:50px;
+  background-image:url(../images/linkedin12.png);
+  height:19px;
+  float:right;
+  margin:25px 0px 0px 0px;
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size:23px 19px;
+}
+
+.githubIcon {
+  width:6.9%;
+  max-width:50px;
+  background-image:url(../images/github13.png);
+  height:19px;
+  float:right;
+  margin:25px 0px 0px 0px;
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size:23px 19px;
+}
+
+.codepenIcon {
+  width:6.9%;
+  max-width:50px;
+  background-image:url(../images/designfloat.png);
+  height:19px;
+  float:right;
+  margin:25px 0px 0px 0px;
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size:23px 19px;
+}
+
+.emailIcon{
+    width:6.9%;
+    max-width:50px;
+    background-image:url(../images/drupal.png);
+    height:19px;
+    float:right;
+    margin:25px 0px 0px 0px;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:23px 19px;
+}
